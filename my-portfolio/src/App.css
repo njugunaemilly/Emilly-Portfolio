@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  
+}
+
+body{
+  min-height: 100vh;
+  background: src='pexels-eberhard-grossgasteiger-2088170.jpg' no-repeat;
+  background-size: cover;
+  background-position: center;
+}
