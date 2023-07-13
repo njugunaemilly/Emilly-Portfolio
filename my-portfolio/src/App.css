@@ -4,8 +4,12 @@
 }
 
 body{
-  min-height: 100vh;
-  background: src='pexels-eberhard-grossgasteiger-2088170.jpg' no-repeat;
+ height: 100vh;
+  width: 100%;
+  /* background-color: background-color #ffd9de;
+  background-image: linear-gradient(315deg, #fce0e4 0%, #e4a1aa 74%); */
+  background-image: url(/public/images/pexels-eberhard-grossgasteiger-2088170.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
