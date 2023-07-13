@@ -8,7 +8,7 @@ function Navbar() {
     {name: 'Skills', link:'/Skills'}
   ]
   return (
-    <div className='nav'>
+    <div className='nav active'>
       <div className='logo'>Emilly <span>Wanjiku</span></div>
       <ul className='ul'>
         {links.map(link =>(

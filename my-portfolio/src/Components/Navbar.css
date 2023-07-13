@@ -2,12 +2,24 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 2%;
-    padding-right: 2%;
-    
+    /* padding-top: 8px;
+    padding-bottom: 8px; */
+    padding-left: 12px;
+    padding-right: 12px;
+    background: transparent;
+    position: sticky;
+    top: 0;
+    font-size: 1.2rem;
+    z-index: 999;
+    height: 80px;    
 }
+
+.nav.active{
+    background: linear-gradient(315deg, #fce0e4 0%, #f4b7bf 74%);
+}
+
+
+
 .ul li{
     list-style: none;
     display: inline-block;
@@ -20,10 +32,15 @@
 }
 
 span{
-    color: purple;
+    color: rgb(215, 148, 215);
 }
 .ul li a{
     color:black;
     text-decoration: none;
     font-weight: bold;
+}
+
+.ul li a:hover{
+    color: rgb(215, 148, 215);
+    transition: .3s;
 }
