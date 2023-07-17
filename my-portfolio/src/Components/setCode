@@ -1,8 +1,4 @@
-import React, { useState } from 'react'
-
-
-function Navbar() {
-  let links = [
+let links = [
     {name: 'Home', link:'/'},
     {name: 'About Me', link:'/AboutMe'},
     {name: 'Projects', link:'/Proects'},
@@ -19,14 +15,9 @@ function Navbar() {
       setNav(false)
     }
   }
-  
-window.addEventListener('scroll', changeBackground)
 
-  return (
-    <>
-    <nav className={nav ? 'nav active' : nav}>
-    <div className='navbar-container'>
-    <div className='logo'>
+<div className={nav ? 'nav active' : nav}>
+      <div className='logo'>
         {/* <img src="./images/Ew.png" alt="Logo" /> */}
         Emilly <span>Wanjiku</span>
       </div>
@@ -37,10 +28,5 @@ window.addEventListener('scroll', changeBackground)
           </li>
         ))}
       </ul>
-    </div>
-    </nav>
-    </>
-  )
-}
 
-export default Navbar
+      </div>

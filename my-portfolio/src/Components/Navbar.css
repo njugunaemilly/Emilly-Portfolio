@@ -3,9 +3,9 @@
     align-items: center;
     justify-content: space-between;
     /* padding-top: 8px;
-    padding-bottom: 8px; */
+    padding-bottom: 8px;  
     padding-left: 12px;
-    padding-right: 12px;
+    padding-right: 12px; */
     background: transparent;
     position: sticky;
     top: 0;
@@ -14,8 +14,17 @@
     height: 80px;    
 }
 
+.navbar-container{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 80px;
+    max-width: 1500px;
+}
+
 .nav.active{
-    background: linear-gradient(315deg, #fce0e4 0%, #f4b7bf 74%);
+    /* background: linear-gradient(315deg, #fce0e4 0%, #f4b7bf 74%); */
+    background: rgb(252, 235, 238);
 }
 
 
@@ -27,8 +36,10 @@
 }
 .logo{
     color: black;
-    font-weight: bold;
-    font-size: 28px;
+    font-weight: bold; 
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic; 
 }
 
 span{
