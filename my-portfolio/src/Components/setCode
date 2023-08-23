@@ -1,4 +1,4 @@
-let links = [
+<!-- let links = [
     {name: 'Home', link:'/'},
     {name: 'About Me', link:'/AboutMe'},
     {name: 'Projects', link:'/Proects'},
@@ -30,3 +30,40 @@ let links = [
       </ul>
 
       </div>
+
+      import React from "react";
+// import "./Skills.css";
+// import { FaHtml5, FaReact } from "react-icons/fa6";
+// import { IoLogoCss3, IoLogoJavascript } from "react-icons/io5";
+// import { SiRubyonrails } from "react-icons/si";
+// import { DiRuby } from "react-icons/di";
+
+// function Skills() {
+//   return (
+//     <div className="skills">
+//       <h3>SKILLS</h3>
+//       <ul className="skills-list">
+//         <li>
+//           <FaHtml5 />
+//         </li>
+//         <li>
+//           <IoLogoCss3/>
+//         </li>
+//         <li>
+//           <IoLogoJavascript/>
+//         </li>
+//         <li>
+//           <FaReact/>
+//         </li>
+//         <li>
+//           <SiRubyonrails/>
+//         </li>
+//         <li>
+//         <DiRuby/>
+//         </li>
+//       </ul>
+//     </div>
+//   );
+// }
+
+// export default Skills; -->

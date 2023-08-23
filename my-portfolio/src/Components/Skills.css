@@ -1,0 +1,11 @@
+.skills{
+    flex-direction: row;
+} 
+
+.skills-list{
+size: 20px;
+text-decoration: none;
+/* display: flex; */
+align-items: center;
+justify-content: space-between;
+}
